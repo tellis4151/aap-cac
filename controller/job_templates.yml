@@ -1,12 +1,10 @@
 ---
 controller_templates:
- - name: Dell iDrac Info
-   project: Dell Server Mgmt
-   execution_environment: Dell execution environment
+ - name: Demo Job Template
+   execution_environment: Default execution environment
    instance_groups:
      - default
-   inventory: Dell Servers
-   playbook: idrac_gather_facts.yml
+   inventory: Demo Inventory
  - name: Dell Firmware Inventory
    project: Dell Server Mgmt
    execution_environment: Dell execution environment
