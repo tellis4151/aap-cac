@@ -5,9 +5,3 @@ controller_templates:
    instance_groups:
      - default
    inventory: Demo Inventory
- - name: Dell Firmware Inventory
-   project: Dell Server Mgmt
-   execution_environment: Dell execution environment
-   instance_groups:
-     - default
-   inventory: Dell Servers
