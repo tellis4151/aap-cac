@@ -1,0 +1,5 @@
+---
+controller_inventories:
+ - name: Dell Servers
+   organization: Default
+   description: Dell Server Inventory

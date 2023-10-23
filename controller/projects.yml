@@ -1,0 +1,10 @@
+---
+controller_projects:
+ - name: Dell Server Mgmt
+   organization: Default
+   scm_branch: main
+   scm_clean: 'no'
+   scm_delete_on_update: 'no'
+   scm_type: git
+   scm_update_on_launch: 'yes'
+   scm_url: https://github.com/tellis4151/dell_openmanage.git

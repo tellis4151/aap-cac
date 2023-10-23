@@ -1,0 +1,5 @@
+---
+controller_user_accounts:
+  - user: sysadmin
+    is_superuser: false
+    password: pw_word_1234
