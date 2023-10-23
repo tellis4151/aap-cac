@@ -11,4 +11,3 @@ controller_templates:
    instance_groups:
      - default
    inventory: Dell Servers
-   playbook: firmware_inventory.yml
