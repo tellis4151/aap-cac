@@ -14,11 +14,3 @@ controller_templates:
      - default
    inventory: Dell Servers
    playbook: firmware_inventory.yml
- - name: Dell Firmware Inventory
-   project: Dell Server Mgmt
-   execution_environment: Dell execution environment
-   instance_groups:
-     - default
-   inventory: Dell Servers
-   playbook: firmware_inventory.yml
-  
