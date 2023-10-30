@@ -5,3 +5,17 @@ controller_templates:
    instance_groups:
      - default
    inventory: Demo Inventory
+ - name: Firmware Inventory
+   project: Dell Server Mgmt
+   playbook: firmware_inventory.yml
+   execution_environment: Dell execution environment
+   instance_groups:
+     - default
+   inventory: Dell Servers
+ - name: iDrac System Info
+   project: Dell Server Mgmt
+   playbook: idrac_system_inventory.yml
+   execution_environment: Dell execution environment
+   instance_groups:
+     - default
+   inventory: Dell Servers
