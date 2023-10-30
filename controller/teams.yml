@@ -1,4 +1,5 @@
 ---
-- name: NetOps
-  description: Network Operations Team
-  organization: Default
+controller_teams:
+  - name: NetOps
+    description: Network Operations Team
+    organization: Default
